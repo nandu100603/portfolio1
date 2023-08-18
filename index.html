@@ -1,351 +1,189 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neha - Developer Portfolio</title>
+    <title>N&U Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:ital,wght@1,300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        body {
-            background-color: rgb(0,0,24);
-            color: white;
-            font-family: 'Poppins', sans-serif;
-        }
-        nav{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 80px;
-            background-color: rgb(18,18,64);
-        }
-        nav ul{
-            display: flex;
-            justify-content: center;
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
 
-        }
-        nav ul li{
-            list-style: none;
-            margin: 0 23px;
-        }
-        nav ul li a{
-            text-decoration: none;
-            color: white;
-            
-        }
 
-        nav ul li a:hover{
-            
-            color: rgb(153,153,226);
-            font-size: 1.08rem;
+        /* Add your CSS styles here */
+        /* ... (Previous CSS styles) ... */
+        .particles-js-canvas-el {
+            position: absolute;
+            width: 100%;
+            height: 100%;
         }
-        .left{
-            font-size: 1.5rem;
-        }
-        .firstSection{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin: 130px 0;
-        }
-        .firstSection div{
-            width: 30%;
-
-        }
-
-        .leftSection{
-            font-size: 3rem;
-            
-        }
-        .rightSection img{
-            
-            width: 80%;
-            margin: 50px 0;
-        }
-        .cute{
-            color: purple;
-        }
-        #element{
-            color: purple;
-        }
-        .secondSection{
-            max-width: 80vw;
-            margin: auto;
-        }
-        main hr{
-            border: 0;
-            background: #9c97f1;
-            height: 1.2px;
-            margin: 80px 84px;
-            
-        }
-
-        .leftSection .buttons{
-            padding: 50px , 0;
-        }
-        .leftSection .btn{
-                padding : 12px;
-                background-color: purple;
-                color:white;
-                border:2px solid white;
-                border-radius: 6px;
-                font-size: 20px;
-                cursor: pointer;
-        }
-        
-    
-    
-                .column {
-                float: left;
-                width: 50%;
-                padding: 10px;
-                height: 300px; /* Should be removed. Only for demonstration */
-            }
-
-/* Clear floats after the columns */
-                    .row:after {
-                    content: "";
-                    display: table;
-                    clear: both;
-                    }
-                    * {
-                    box-sizing: border-box;
-                    }
-
-.thirdSection{
-            max-width: 80vw;
-            margin: auto;
-        }
-.thirdSection img{
-    height: 100%;
-    width: 100%;
-}
-
-.thirdSection p{
-    font-size: medium;
-}
-
-.center1{
-    
-  
-  
-  top: 50%;
-  left: 50%;
-  
-  padding: 90px;
-
-}
-.center2 {
-  margin-left: auto;
-  margin-right: auto;
-}
-.fourSection{
-    max-width: 80vw;
-     
-    margin: auto;
-}
-.fourSection img{
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-}
-    footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
     </style>
 </head>
+
 <body>
     <header>
+        <header>
         <nav>
-            <div class="left">Nehanjali's Portfolio</div>
-            <div class=""right>
+            <div class="logo">N&U</div>
+            <div class="menu">
                 <ul>
-                    <li><a href="#firstSection" target="_blank">Home</a></li>
-                    <li><a href="#secondSection" target="_blank">Skills</a></li>
-                    <li><a href="#thirdSection" target="_blank">Achievements</a></li>
-                    <li><a href="#fourSection" target="_blank">Projects</a></li>
-                    <li><a href="#fifSection" target="_blank">Contact Me</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <main>
-        <section id ="firstSection" class="firstSection">
-            <div class="leftSection">
-                Hi My name is <span class="cute">Neha</span> A highly motivated and enthusiastic <span id="element"></span>
-                <div class="buttons">
-                    <a href="https://drive.google.com/file/d/1VHgixZ9gj4zYHVX8j0iUCpddCw4zpnJm/view?usp=share_link"><button class="btn">Resume</button></a>
-                    <a href="https://github.com/ManchikantiNehanjali?tab=repositories"><button class="btn">Github</button></a>
-                    <a href="https://www.linkedin.com/in/nehanjali-manchikanti-55229a212/"><button class="btn">Linkedin</button></a>
-                </div>
+        <!-- ... (Header content) ... -->
+    </header>
+    <main><section id="firstSection" class="section">
+      <!-- User Introduction-->
+      <div class="user-details">
+        <h1>About Me</h1>
+        <h1>Hi, My name is <span class="highlight">KUMMETHA NANDI VARDHAN REDDY</span>.</h1>
+          <img src="./assets/img/jpg/Professional-Picture-Me.jpg" alt="Professional Me" width="20%" style="border-radius: 50%">
+        <p>
+          I am an IT undergraduate, A hardworking and passionate job seeker with strong organizational skills eager to secure an entry-level software developer position.I am interested in exploring the fields of Software Engineering and Machine Learning, and I am open to opportunities for the same.
+        </p>
+      </div>
+            <div style="text-align: center;">
+                <a href="https://drive.google.com/drive/folders/18Cl_1UUoIUS0WYUBNkTp1gSV8a-jHbVD?usp=drive_link"><button class="btn">Resume</button></a>
+                <a href="https://github.com/nandu100603"><button class="btn">GitHub</button></a>
+                <a href="https://www.linkedin.com/in/nandi-vardhan-reddy-kummetha-1087a0209/"><button class="btn">LinkedIn</button></a>
             </div>
-
-
-            <div class="rightSection">
-                <img src="dev.jpg" alt="">
-            </div>
-
         </section>
-
-        <hr>
-        <section id="secondSection" class="secondSection">
-            <div class="column-2a">
-                <h1 style="text-align:center; color: aqua; font-size: 78px;">Skills</h1>
-                <br>
-               <table class="center2">
-                 <tr>
-                   <td>Programming Skills</td>
-                   <td>⭐⭐</td>
-                 </tr>
-                 <tr>
-                   <td>DSA using python</td>
-                   <td>⭐⭐</td>
-                 </tr>
-                 <tr>
-                   <td>Java</td>
-                   <td>⭐⭐</td>
-                 </tr>
-                 <tr>
-                   <td>SQL</td>
-                   <td>⭐</td>
-                 </tr>
-                 <tr>
-                   <td> DBMS</td>
-                   <td>⭐</td>
-                 </tr>
-                 <tr>
-                   <td> HTML/CSS/JAVASCRIPT</td>
-                   <td>⭐</td>
-                 </tr>
-                 <tr>
-                    <td> OS</td>
-                    <td>⭐</td>
-                  </tr>
-                  <tr>
-                    <td> NumPy</td>
-                    <td>⭐</td>
-                  </tr>
-                  <tr>
-                    <td>Pandas</td>
-                    <td>⭐</td>
-                  </tr>
-
-               </table>
-             </div>
-             
-        </section>
-        <hr>
-        <section id="thirdSection" class="thirdSection">
-            <h1 style="text-align:center; color: aqua; font-size: 78px;">Achievements</h1>
-            <br>
-            <br>
-            <div class="row">
-                <div class="column">
-                  <a href="https://drive.google.com/file/d/1nbZ2oGsg1M6AcFsL0rFcCwckAqLDBUBw/view?usp=share_link"><img src="TcsCodevita.jpeg" alt=""></a>
-                </div>
-                <div class="column">
-                  <div class="center1">
-                    <h1>Secured a global rank of 963 in TCS CodeVita Session 10 2022-05</h1>
-                  </div>
-              </div>
-              <div class="row">
-                <div class="column">
-                  <a href="https://drive.google.com/file/d/1nek7xEVVO-ID39iup8ebC3Gr1e5ycbgf/view?usp=share_link"><img src="Blackbucks.jpeg" alt=""></a>
-                </div>
-                <div class="column">
-                  <div class="center1">
-                    <h1>Secured 6th place in the Womens day Coding Contest conducted by Blackbucks</h1>
-                  </div>
-              </div>
-              <div class="row">
-                <div class="column">
-                  <a href="https://drive.google.com/file/d/1nM_oM0Jde0ufuvUuDVnXUyGnzCSyJCmu/view?usp=share_link"><img src="Nptel Python.jpeg" alt=""></a>
-                </div>
-                <div class="column">
-                  <div class="center1">
-                    <h1>NPTEL Programming DataStructures and Algorithms Using Python with a consolidated score of 83%</h1>
-                  </div>
-              </div>
-              <div class="row">
-                <div class="column" >
-                  <a href="https://drive.google.com/file/d/1nOXo9Q4l3wsLXG9cTN4a5uxsYJUwD8-W/view?usp=share_link"><img src="Nptel Java.jpeg" alt=""></a>
-                </div>
-                <div class="column">
-                  <div class="center1">
-                    <h1>NPTEL Programming in Java with a consolidated score of 70%</h1>
-                  </div>
-              </div>
-              <div class="row">
-                <div class="column" >
-                  <a href="https://drive.google.com/file/d/1nVyPwFaXDjN66Pqfj2drYmrrDt60wHQb/view?usp=share_link"><img src="Sem 3.jpeg" alt=""></a>
-                </div>
-                <div class="column">
-                  <div class="center1">
-                    <h1>Felicitated with a Silver Medal, for academic excellence (3rd Sem)</h1>
-                  </div>
-              </div>
-              <div class="row">
-                <div class="column" >
-                  <a href="https://drive.google.com/file/d/1n_pxEjAqD2sQ_vflzVbcXm-xDU2Yq4xG/view?usp=share_link"><img src="Sem 4.jpeg" alt=""></a>
-                </div>
-                <div class="column">
-                  <div class="center1">
-                    <h1>Felicitated with a Gold Medal, for academic excellence (4th-sem)</h1>
-                  </div>
-              </div>
-              <div class="row">
-                <div class="column" >
-                  <a href="https://drive.google.com/file/d/1niAHBMMstm2Uu47PT6MIa4AoSvWYsG2W/view?usp=share_link"><img src="Wad.jpeg" alt=""></a>
-                </div>
-                <div class="column">
-                  <div class="center1">
-                    <h1>Web Development 101 - Getting started with JavaScript offered by Pupilfirst</h1>
-                  </div>
-              </div>
-        </section>
-        <hr>
-        <section id="fourSection"class="fourSection">
-            <h1 style="text-align:center; color: aqua; font-size: 78px;">Projects</h1>
-            <br><br>
-            <div class="row">
-                <div class="column" >
-                  <a href="https://github.com/ManchikantiNehanjali/ChatBot/blob/main/chatbot-pro%20(2).ipynb"><img src="AI-chatbot.webp" alt=""></a>
-                </div>
-                <div class="column">
-                  <div class="center1">
-                    <p>A basic chatbot which deals with, user enters the questions and then answers will be displayed . 
-                        It is done with the help of TensorFlow, Data preprocessing.</p>
-                  </div>
-            </div>
-            </div>
-            
-            
-        </section>
-        <section id="fifSection">
-        <hr>
-        <h1 style="text-align:center; color: aqua; font-size: 25px;">mnehanjali@gmail.com</h1>
-        <h1 style="text-align:center; color: aqua; font-size: 25px;">8125100803</h1>
-        </section>
-  <footer>
-    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
-  </footer>
+        <footer>
+            <p>© 2023 Nandu`s Portfolio. All rights reserved.</p>
+        </footer>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['<i>Web </i>Developer', 'Data Analyst', 'Programmer'],
+                typeSpeed: 50,
+            });
+        </script>
+        <!-- ... (Other sections and content) ... -->
     </main>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-          strings: ['<i>Web </i>Developer', 'Data Analyst','Programmer'],
-          typeSpeed: 50,
+
+    <!-- Add particles.js script here -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!--<script>
+        particlesJS('particles-js', {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
         });
-      </script>
-   
+    </script>-->
 </body>
 </html>
