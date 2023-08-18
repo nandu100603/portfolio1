@@ -11,6 +11,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:ital,wght@1,300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <style>
+        /* Ensure the footer is at the bottom */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set the minimum height of the viewport */
+}
+
+main {
+    flex: 1; /* Allow the main content to take up remaining space */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
         /* Adjust the positioning and layout for left and right projects */
         .project-left {
             text-align: left;
